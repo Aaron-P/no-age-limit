@@ -1,16 +1,11 @@
 {
-  "title": "no-age-limit",
-  "name": "no-age-limit",
-  "version": "0.0.1",
+  "title": "Youtube Age Unrestrictor",
+  "name": "Youtube Age Unrestrictor",
+  "version": "0.1.0",
   "description": "An add on to watch restricted youtube videos without signing in.",
   "main": "index.js",
   "author": "Sabir Manandhar",
-  "engines": {
-    "firefox": ">=38.0a1",
-    "fennec": ">=38.0a1"
-  },
-  "license": "MIT",
-  "keywords": [
-    "youtube", "restricted"
-  ]
+  "permissions": {"private-browsing": true},
+  "license": "MIT"
 }
+
