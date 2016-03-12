@@ -5,7 +5,7 @@ var tabs = require("sdk/tabs");
 
 pageMod.PageMod({
 	include: /^https:\/\/www\.youtube\.com\/watch\?v\=.*/,
-	contentScriptFile: [self.data.url( "jquery-1.12.1.min.js" ), self.data.url( "modifier.js" )]
+	contentScriptFile: [self.data.url( "modifier.js" )]
 });
 
 var button = buttons.ActionButton({
