@@ -1,6 +1,6 @@
 {
   "title": "Youtube Age Unrestrictor",
-  "name": "youtube-age-unrestrictor",
+  "name": "no_age_limit",
   "version": "0.1.0",
   "description": "An add on to watch restricted youtube videos without signing in.",
   "main": "index.js",
