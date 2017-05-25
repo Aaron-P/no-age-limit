@@ -23,4 +23,3 @@ if ( player.offsetParent !== null ) {
 		iframe.setAttribute( "height", player.clientHeight );
 	} );
 }
-
