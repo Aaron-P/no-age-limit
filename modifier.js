@@ -1,7 +1,7 @@
 var player = document.getElementById( "player-unavailable" );
 var sign_in_request = document.querySelector( "ytd-button-renderer.ytd-player-error-message-renderer" );
 
-if ( player.offsetParent !== null ) {
+if ( player && player.offsetParent !== null ) {
 	var page_class = document.getElementById( "page" ).className,
 		regexp = /video-([\w-_]*)/,
 		iframe = document.createElement( "iframe" );
